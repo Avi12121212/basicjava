@@ -3,22 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package basicjava2;
+package methodspackage;
 
 /**
  *
  * @author HP
  */
-public class DoWhile {
+public class Test {
 
     public static void main(String[] args) {
-        int a = 0, sum = 0;
-        do {
-            sum += a;
-            System.out.print(a + " ");
-            System.out.println(sum);
-            a++;
-        } while (a < 10);
+//        System.out.println(BankAccount.rateofinterest);
+//        System.out.println(BankAccount.bankname);
+new B();
     }
 
 }

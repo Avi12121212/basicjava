@@ -13,7 +13,7 @@ public class Pattern {
 
     public static void main(String[] args) {
         int i, j, k;
-        int n = 5;
+        int n = 5, q = 6;
         for (i = 1; i <= n; i++) {
             for (j = 1; j <= n - i; j++) {
                 System.out.print(" ");
@@ -22,9 +22,10 @@ public class Pattern {
             for (k = 1; k <= i; k++) {
                 System.out.print("0");
             }
-            
-            System.out.println();
-        }
-    }
 
+            System.out.println();
+
+        }
+
+    }
 }

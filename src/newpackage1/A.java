@@ -3,22 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package basicjava2;
+package newpackage1;
 
 /**
  *
  * @author HP
  */
-public class DoWhile {
+public class A {
+
+    public static String a = "A wala";
 
     public static void main(String[] args) {
-        int a = 0, sum = 0;
-        do {
-            sum += a;
-            System.out.print(a + " ");
-            System.out.println(sum);
-            a++;
-        } while (a < 10);
-    }
 
+    }
 }

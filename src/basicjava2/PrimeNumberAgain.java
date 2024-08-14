@@ -12,20 +12,33 @@ package basicjava2;
 public class PrimeNumberAgain {
 
     public static void main(String[] args) {
-
-        int n = 70, p = 5;
+        int n = 100;
+        int count = 3;
         int t = 2;
-        while (p <= n) {
-//            System.out.println(t);
+        System.out.println("1)2\n2)3\n3)5\n");
+        int i = 5;
+        outer:
+        while (true) {
+//            System.out.println(i);
 
-            p = p + t;
+            i += t;
+            if (i > n) {
+                break;
+            }
             t = 6 - t;
-            System.out.print(p + " ");
-            p = p + 4;
-            System.out.print(p + " ");
+            int limit = (int) Math.sqrt(i);
+            int j = 2;
+            while (j <= limit) {
+                if (i % j == 0) {
+                    continue outer;
+                }
+                j++;
+            }
+            count++;
+           // System.out.printf("%s)%s\n", count, i);
 
         }
-//
+
     }
 
 }
