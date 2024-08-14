@@ -40,6 +40,7 @@ public class Array {
 //           // System.out.println(ak[2]);}
 //        for (String o : ak) {
 //            System.out.println(o);
+// hello
 //    }
         int a[] = {15, 54, 12, 36, 45, 98, 78, 65, 5};
         int sum = 0;

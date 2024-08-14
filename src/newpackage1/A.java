@@ -10,10 +10,11 @@ package newpackage1;
  * @author HP
  */
 public class A {
-
+    
     public static String a = "A wala";
 
     public static void main(String[] args) {
+        System.out.println("");
 
     }
 }
